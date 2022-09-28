@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    min-width: 100vw;
+    background-color: #FA990A;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+    font-size: 50px;
+    color: #FEFCFB;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input_login{
+    margin: 10px;
+    width: 334px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+}
