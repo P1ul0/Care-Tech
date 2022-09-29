@@ -1,0 +1,17 @@
+body{
+    height: 90vh;
+    display: flex;
+    background-color: #FEFCFB;
+}
+.conteiner-start{
+    height: 63px;
+    width: 422px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #FA990A;
+}
+.img_logo{
+    height: 42px;
+    width: 42px;
+}

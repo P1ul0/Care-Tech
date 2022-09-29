@@ -12,16 +12,23 @@
 <body>
     <link rel="stylesheet" href="style.css">
     <h1 class="titulo">Faça Seu <br> Login </h1>
-    <div class="input">
-        <input class="input_login" placeholder="    Email" type="String">
-        <input class="input_senha" placeholder="Senha" type="password" name="Senha" >
-        <a href="#">Esqueceu Sua Senha</a>
+    <div class="conteiner_input">
+        <div class="input">
+            <input class="input_login" placeholder="Email" type="Email">
+            <input class="input_senha" placeholder="Senha" type="password" name="Senha" >
+        </div>
+            
+        <div>
+            <label for="remember"><input type="checkbox" name="remember" id="remember">Lembrar senha</label>
+            <a href="#">Esqueceu Sua Senha</a>
+        </div>
     </div>
     <div class="img_rede">
-        <button class="img_Facebook" type="button"><img src="62487-bluetie-icons-computer-facebook-login-icon-email 2.png" alt="img_Facebook"></button>
-        <button class="img_twitter" type="button"><img src="icon-twiter.png" alt="img_twitter"></button>
-        <button class="img_Google" type="button"><img src="Component 2.png" alt="img_Google"></button>
+        <a class="img_Facebook" href="#"><img src="icons8-facebook-novo.svg" alt="img_Facebook"></a>
+        <a class="img_twitter" href="#"><img src="icons8-twitter.svg" alt="img_twitter"></a>
+        <a class="img_Google" href="#"><img src="icons8-google.svg" alt="img_Google"></a>
     </div>
+
     <button class="button_login" type="button">Login</button>
 </body>
 </html>
